@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>Events</title>
+  </head>
+  <body>
+    <!-- Navbar up Start -->
+    <div class="nav-allmain">
+      <div class="nav-up-main">
+        <div class="nav-up-inner">
+          <div class="nav-up-txt-part">
+            <p class="nav-up-inner">For Inquery</p>
+          </div>
+          <div class="nav-up-con-part-flex">
+            <div class="nav-up-contact-part">
+              <p class="nav-up-inner">Call us</p>
+              <a href="tel:0281 245 8976" class="nav-up-con-detail"
+                >0281 245 8976</a
+              >
+            </div>
+
+            <div class="nav-up-contact-part">
+              <p class="nav-up-inner">Email</p>
+              <a href="mailto:abc@gmail.com" class="nav-up-con-detail"
+                >abc@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navbar up End -->
+
+      <!-- Navbar Main Start -->
+
+      <!-- <nav class="nav-main">
+        <div class="nav-con">
+          <div class="nav-logobox">
+            <img
+              src="http://99webpage.com/theme-review/landingpage/donate/img/logo.png"
+              alt=""
+              class="nav-logo"
+            />
+          </div>
+          <nav class="main-nav">
+            <ul class="nav-links">
+              <li class="nav-link">
+                <a class="menu-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-link">
+                <a class="menu-link" href="events.html">Events</a>
+              </li>
+              <li class="nav-link">
+                <a class="menu-link" href="aboutus.html">About</a>
+              </li>
+              <li class="nav-link">
+                <a class="menu-link" href="contactus.html">Contact</a>
+              </li>
+              <li class="nav-link"><button class="main-btn">Donate</button></li>
+            </ul>
+          </nav>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </div>
+      </nav> -->
+
+      <div class="heqader-main">
+        <header class="header">
+          <div class="nav-logobox">
+            <img
+              src="http://99webpage.com/theme-review/landingpage/donate/img/logo.png"
+              alt=""
+              class="nav-logo"
+            />
+          </div>
+
+          <nav class="main-nav">
+            <ul class="nav-links">
+              <li class="nav-link">
+                <a class="menu-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-link">
+                <a class="menu-link" href="events.html">Events</a>
+              </li>
+              <li class="nav-link">
+                <a class="menu-link" href="aboutus.html">About</a>
+              </li>
+              <li class="nav-link">
+                <a class="menu-link" href="contactus.html">Contact</a>
+              </li>
+              <li class="nav-link"><button class="main-btn">Donate</button></li>
+            </ul>
+          </nav>
+
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
+        </header>
+      </div>
+    </div>
+
+    <!-- Navbar Main End -->
+    <div class="event-heading-box">
+      <p class="heading-event">Our Events</p>
+    </div>
+    <div class="container event-card-flex">
+      <!-- Event card start -->
+      <div class="home-card">
+        <div id="sliderer-containerer" class="sliderer-home">
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-1.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img--2.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-3.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-4.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-5.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-6.jpg" alt="" />
+          </div>
+
+          <div onclick="prevv()" class="control-prevv-btn-home">
+            <ion-icon
+              class="indi-img-slide-icon"
+              name="chevron-back-outline"
+            ></ion-icon>
+          </div>
+          <div onclick="nextt()" class="control-nextt-btn-home">
+            <ion-icon
+              class="indi-img-slide-icon"
+              name="chevron-forward-outline"
+            ></ion-icon>
+          </div>
+        </div>
+        <p class="card-event-name">Test Event Name</p>
+        <div class="card-event-date-part">
+          <img src="./icons/calender-home.png" class="cal-home-img" />
+          <p class="card-event-date">25/12/22</p>
+        </div>
+        <div class="card-event-date-part">
+          <img src="./icons/time-home-img.png" class="cal-home-img" />
+          <p class="card-event-date">10:00 to 16:00</p>
+        </div>
+        <div class="card-event-date-part">
+          <img src="./icons/location-home-img.png" class="cal-home-img" />
+          <p class="card-event-date">Test Location</p>
+        </div>
+        <p class="about-card-event">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here', making it
+          look like readable English. Many desktop publishing packages and web
+          page editors now use Lorem Ipsum as their default model text, and a
+          search for 'lorem ipsum' will uncover many web sites still in their
+          infancy.
+        </p>
+
+        <div class="mukhya-atithi-name-flex">
+          <p class="event-card-special-guest-head">Cheif Guest-</p>
+          <p class="event-card-special-guest-name">Test Name</p>
+        </div>
+
+        <div class="mukhya-atithi-name-flex">
+          <p class="event-card-special-guest-head">Cheif Guest-:-</p>
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <!-- <span class="event-card-special-guest-name">શ્રી ઉદયભાઈ કાનગઢ,</span> -->
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name, </span>
+          <span class="event-card-special-guest-name">Test Name</span>
+        </div>
+
+        <!-- <p class="event-card-special-guest-head">ચીફ ગેસ્ટ-</p>
+<p class="event-card-special-guest-name">શ્રી વજુભાઈ વાળા
+</p>
+<div class="event-card-column-line"></div>
+<p class="event-card-special-guest-head">મુખ્ય અતિથિ:-</p>
+<p class="event-card-special-guest-name">શ્રી રામભાઈ મોકરિયા,</p>
+</div> -->
+      </div>
+
+      <div class="home-card">
+        <div id="sliderer-containerer_sec" class="sliderer-home">
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-1.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img--2.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-3.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-4.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-5.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-6.jpg" alt="" />
+          </div>
+
+          <div onclick="prevv_sec()" class="control-prevv-btn-home">
+            <ion-icon
+              class="indi-img-slide-icon"
+              name="chevron-back-outline"
+            ></ion-icon>
+          </div>
+          <div onclick="nextt_sec()" class="control-nextt-btn-home">
+            <ion-icon
+              class="indi-img-slide-icon"
+              name="chevron-forward-outline"
+            ></ion-icon>
+          </div>
+        </div>
+        <p class="card-event-name">Test Event Name</p>
+        <div class="card-event-date-part">
+          <img src="./icons/calender-home.png" class="cal-home-img" />
+          <p class="card-event-date">25/12/22</p>
+        </div>
+        <div class="card-event-date-part">
+          <img src="./icons/time-home-img.png" class="cal-home-img" />
+          <p class="card-event-date">10:00 to 16:00</p>
+        </div>
+        <div class="card-event-date-part">
+          <img src="./icons/location-home-img.png" class="cal-home-img" />
+          <p class="card-event-date">Test Location</p>
+        </div>
+        <p class="about-card-event">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here', making it
+          look like readable English. Many desktop publishing packages and web
+          page editors now use Lorem Ipsum as their default model text, and a
+          search for 'lorem ipsum' will uncover many web sites still in their
+          infancy.
+        </p>
+
+        <div class="mukhya-atithi-name-flex">
+          <p class="event-card-special-guest-head">Cheif Guest-</p>
+          <p class="event-card-special-guest-name">Test Name</p>
+        </div>
+
+        <div class="mukhya-atithi-name-flex">
+          <p class="event-card-special-guest-head">Cheif Guest-:-</p>
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <!-- <span class="event-card-special-guest-name">શ્રી ઉદયભાઈ કાનગઢ,</span> -->
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name, </span>
+          <span class="event-card-special-guest-name">Test Name</span>
+        </div>
+
+        <!-- <p class="event-card-special-guest-head">ચીફ ગેસ્ટ-</p>
+<p class="event-card-special-guest-name">શ્રી વજુભાઈ વાળા
+</p>
+<div class="event-card-column-line"></div>
+<p class="event-card-special-guest-head">મુખ્ય અતિથિ:-</p>
+<p class="event-card-special-guest-name">શ્રી રામભાઈ મોકરિયા,</p>
+</div> -->
+      </div>
+
+      <div class="home-card">
+        <div id="sliderer-containerer_third" class="sliderer-home">
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-1.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img--2.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-3.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-4.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-5.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-6.jpg" alt="" />
+          </div>
+
+          <div onclick="prevv_third()" class="control-prevv-btn-home">
+            <ion-icon
+              class="indi-img-slide-icon"
+              name="chevron-back-outline"
+            ></ion-icon>
+          </div>
+          <div onclick="nextt_third()" class="control-nextt-btn-home">
+            <ion-icon
+              class="indi-img-slide-icon"
+              name="chevron-forward-outline"
+            ></ion-icon>
+          </div>
+        </div>
+        <p class="card-event-name">Test Event Name</p>
+        <div class="card-event-date-part">
+          <img src="./icons/calender-home.png" class="cal-home-img" />
+          <p class="card-event-date">25/12/22</p>
+        </div>
+        <div class="card-event-date-part">
+          <img src="./icons/time-home-img.png" class="cal-home-img" />
+          <p class="card-event-date">10:00 to 16:00</p>
+        </div>
+        <div class="card-event-date-part">
+          <img src="./icons/location-home-img.png" class="cal-home-img" />
+          <p class="card-event-date">Test Location</p>
+        </div>
+        <p class="about-card-event">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here', making it
+          look like readable English. Many desktop publishing packages and web
+          page editors now use Lorem Ipsum as their default model text, and a
+          search for 'lorem ipsum' will uncover many web sites still in their
+          infancy.
+        </p>
+
+        <div class="mukhya-atithi-name-flex">
+          <p class="event-card-special-guest-head">Cheif Guest-</p>
+          <p class="event-card-special-guest-name">Test Name</p>
+        </div>
+
+        <div class="mukhya-atithi-name-flex">
+          <p class="event-card-special-guest-head">Cheif Guest-:-</p>
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <!-- <span class="event-card-special-guest-name">શ્રી ઉદયભાઈ કાનગઢ,</span> -->
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name, </span>
+          <span class="event-card-special-guest-name">Test Name</span>
+        </div>
+
+        <!-- <p class="event-card-special-guest-head">ચીફ ગેસ્ટ-</p>
+<p class="event-card-special-guest-name">શ્રી વજુભાઈ વાળા
+</p>
+<div class="event-card-column-line"></div>
+<p class="event-card-special-guest-head">મુખ્ય અતિથિ:-</p>
+<p class="event-card-special-guest-name">શ્રી રામભાઈ મોકરિયા,</p>
+</div> -->
+      </div>
+
+      <div class="home-card">
+        <div id="sliderer-containerer_fourth" class="sliderer-home">
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-1.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img--2.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-3.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-4.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-5.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-6.jpg" alt="" />
+          </div>
+
+          <div onclick="prevv_fourth()" class="control-prevv-btn-home">
+            <ion-icon
+              class="indi-img-slide-icon"
+              name="chevron-back-outline"
+            ></ion-icon>
+          </div>
+          <div onclick="nextt_fourth()" class="control-nextt-btn-home">
+            <ion-icon
+              class="indi-img-slide-icon"
+              name="chevron-forward-outline"
+            ></ion-icon>
+          </div>
+        </div>
+        <p class="card-event-name">Test Event Name</p>
+        <div class="card-event-date-part">
+          <img src="./icons/calender-home.png" class="cal-home-img" />
+          <p class="card-event-date">25/12/22</p>
+        </div>
+        <div class="card-event-date-part">
+          <img src="./icons/time-home-img.png" class="cal-home-img" />
+          <p class="card-event-date">10:00 to 16:00</p>
+        </div>
+        <div class="card-event-date-part">
+          <img src="./icons/location-home-img.png" class="cal-home-img" />
+          <p class="card-event-date">Test Location</p>
+        </div>
+        <p class="about-card-event">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here', making it
+          look like readable English. Many desktop publishing packages and web
+          page editors now use Lorem Ipsum as their default model text, and a
+          search for 'lorem ipsum' will uncover many web sites still in their
+          infancy.
+        </p>
+
+        <div class="mukhya-atithi-name-flex">
+          <p class="event-card-special-guest-head">Cheif Guest-</p>
+          <p class="event-card-special-guest-name">Test Name</p>
+        </div>
+
+        <div class="mukhya-atithi-name-flex">
+          <p class="event-card-special-guest-head">Cheif Guest-:-</p>
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <!-- <span class="event-card-special-guest-name">શ્રી ઉદયભાઈ કાનગઢ,</span> -->
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name, </span>
+          <span class="event-card-special-guest-name">Test Name</span>
+        </div>
+
+        <!-- <p class="event-card-special-guest-head">ચીફ ગેસ્ટ-</p>
+<p class="event-card-special-guest-name">શ્રી વજુભાઈ વાળા
+</p>
+<div class="event-card-column-line"></div>
+<p class="event-card-special-guest-head">મુખ્ય અતિથિ:-</p>
+<p class="event-card-special-guest-name">શ્રી રામભાઈ મોકરિયા,</p>
+</div> -->
+      </div>
+
+      <div class="home-card">
+        <div id="sliderer-containerer-fifth" class="sliderer-home">
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-1.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img--2.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-3.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-4.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-5.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-6.jpg" alt="" />
+          </div>
+
+          <div onclick="prevv_fifth()" class="control-prevv-btn-home">
+            <ion-icon
+              class="indi-img-slide-icon"
+              name="chevron-back-outline"
+            ></ion-icon>
+          </div>
+          <div onclick="nextt_fifth()" class="control-nextt-btn-home">
+            <ion-icon
+              class="indi-img-slide-icon"
+              name="chevron-forward-outline"
+            ></ion-icon>
+          </div>
+        </div>
+        <p class="card-event-name">Test Event Name</p>
+        <div class="card-event-date-part">
+          <img src="./icons/calender-home.png" class="cal-home-img" />
+          <p class="card-event-date">25/12/22</p>
+        </div>
+        <div class="card-event-date-part">
+          <img src="./icons/time-home-img.png" class="cal-home-img" />
+          <p class="card-event-date">10:00 to 16:00</p>
+        </div>
+        <div class="card-event-date-part">
+          <img src="./icons/location-home-img.png" class="cal-home-img" />
+          <p class="card-event-date">Test Location</p>
+        </div>
+        <p class="about-card-event">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here', making it
+          look like readable English. Many desktop publishing packages and web
+          page editors now use Lorem Ipsum as their default model text, and a
+          search for 'lorem ipsum' will uncover many web sites still in their
+          infancy.
+        </p>
+
+        <div class="mukhya-atithi-name-flex">
+          <p class="event-card-special-guest-head">Cheif Guest-</p>
+          <p class="event-card-special-guest-name">Test Name</p>
+        </div>
+
+        <div class="mukhya-atithi-name-flex">
+          <p class="event-card-special-guest-head">Cheif Guest-:-</p>
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <!-- <span class="event-card-special-guest-name">શ્રી ઉદયભાઈ કાનગઢ,</span> -->
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name, </span>
+          <span class="event-card-special-guest-name">Test Name</span>
+        </div>
+
+        <!-- <p class="event-card-special-guest-head">ચીફ ગેસ્ટ-</p>
+<p class="event-card-special-guest-name">શ્રી વજુભાઈ વાળા
+</p>
+<div class="event-card-column-line"></div>
+<p class="event-card-special-guest-head">મુખ્ય અતિથિ:-</p>
+<p class="event-card-special-guest-name">શ્રી રામભાઈ મોકરિયા,</p>
+</div> -->
+      </div>
+
+      <div class="home-card">
+        <div id="sliderer-containerer-six" class="sliderer-home">
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-1.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img--2.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-3.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-4.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-5.jpg" alt="" />
+          </div>
+          <div class="slidees-home">
+            <img src="gallery_images/gallery-img-6.jpg" alt="" />
+          </div>
+
+          <div onclick="prevv_six()" class="control-prevv-btn-home">
+            <ion-icon
+              class="indi-img-slide-icon"
+              name="chevron-back-outline"
+            ></ion-icon>
+          </div>
+          <div onclick="nextt_six()" class="control-nextt-btn-home">
+            <ion-icon
+              class="indi-img-slide-icon"
+              name="chevron-forward-outline"
+            ></ion-icon>
+          </div>
+        </div>
+        <p class="card-event-name">Test Event Name</p>
+        <div class="card-event-date-part">
+          <img src="./icons/calender-home.png" class="cal-home-img" />
+          <p class="card-event-date">25/12/22</p>
+        </div>
+        <div class="card-event-date-part">
+          <img src="./icons/time-home-img.png" class="cal-home-img" />
+          <p class="card-event-date">10:00 to 16:00</p>
+        </div>
+        <div class="card-event-date-part">
+          <img src="./icons/location-home-img.png" class="cal-home-img" />
+          <p class="card-event-date">Test Location</p>
+        </div>
+        <p class="about-card-event">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using 'Content here, content here', making it
+          look like readable English. Many desktop publishing packages and web
+          page editors now use Lorem Ipsum as their default model text, and a
+          search for 'lorem ipsum' will uncover many web sites still in their
+          infancy.
+        </p>
+
+        <div class="mukhya-atithi-name-flex">
+          <p class="event-card-special-guest-head">Cheif Guest-</p>
+          <p class="event-card-special-guest-name">Test Name</p>
+        </div>
+
+        <div class="mukhya-atithi-name-flex">
+          <p class="event-card-special-guest-head">Cheif Guest-:-</p>
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name,</span>
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <!-- <span class="event-card-special-guest-name">શ્રી ઉદયભાઈ કાનગઢ,</span> -->
+          <span class="event-card-special-guest-name"> Test Name,</span>
+          <span class="event-card-special-guest-name">Test Name, </span>
+          <span class="event-card-special-guest-name">Test Name</span>
+        </div>
+
+        <!-- <p class="event-card-special-guest-head">ચીફ ગેસ્ટ-</p>
+<p class="event-card-special-guest-name">શ્રી વજુભાઈ વાળા
+</p>
+<div class="event-card-column-line"></div>
+<p class="event-card-special-guest-head">મુખ્ય અતિથિ:-</p>
+<p class="event-card-special-guest-name">શ્રી રામભાઈ મોકરિયા,</p>
+</div> -->
+      </div>
+    </div>
+    <!-- Event card end -->
+
+    <!-- Footer Start -->
+
+    <footer class="footer">
+      <p class="footer-txt">© 2023 Panjrapol All rights reserved.</p>
+    </footer>
+
+    <!-- Footer End -->
+
+    <!-- Card Event  js -->
+
+    <script>
+      function prevv() {
+        document.getElementById("sliderer-containerer").scrollLeft -= 270;
+      }
+
+      function nextt() {
+        document.getElementById("sliderer-containerer").scrollLeft += 270;
+      }
+
+      function prevv_sec() {
+        document.getElementById("sliderer-containerer_sec").scrollLeft -= 270;
+      }
+
+      function nextt_sec() {
+        document.getElementById("sliderer-containerer_sec").scrollLeft += 270;
+      }
+
+      function prevv_third() {
+        document.getElementById("sliderer-containerer_third").scrollLeft -= 270;
+      }
+
+      function nextt_third() {
+        document.getElementById("sliderer-containerer_third").scrollLeft += 270;
+      }
+
+      function prevv_fourth() {
+        document.getElementById(
+          "sliderer-containerer_fourth"
+        ).scrollLeft -= 270;
+      }
+
+      function nextt_fourth() {
+        document.getElementById(
+          "sliderer-containerer_fourth"
+        ).scrollLeft += 270;
+      }
+
+      function prevv_fifth() {
+        document.getElementById("sliderer-containerer-fifth").scrollLeft -= 270;
+      }
+
+      function nextt_fifth() {
+        document.getElementById("sliderer-containerer-fifth").scrollLeft += 270;
+      }
+
+      function prevv_six() {
+        document.getElementById("sliderer-containerer-six").scrollLeft -= 270;
+      }
+
+      function nextt_six() {
+        document.getElementById("sliderer-containerer-six").scrollLeft += 270;
+      }
+
+      $(".slidees-home img").on("click", function () {
+        $(this).toggleClass("zoomed");
+        $(".overlayy").toggleClass("active");
+      });
+
+      // for last slider of arm page
+
+      function prevvlast() {
+        document.getElementById("sliderer-containerer-last").scrollLeft -= 270;
+      }
+
+      function nexttlast() {
+        document.getElementById("sliderer-containerer-last").scrollLeft += 270;
+      }
+
+      //   second card
+
+      //   function prevv_home_sec() {
+      //     document.getElementById("sliderer-containerer-last").scrollLeft -= 270;
+      //   }
+
+      //   function nextt_home_sec() {
+      //     document.getElementById("sliderer-containerer-last").scrollLeft += 270;
+      //   }
+
+      $(".slideeslast img").on("click", function () {
+        $(this).toggleClass("zoomedlast");
+        $(".overlayyy").toggleClass("active");
+      });
+    </script>
+
+    <!-- Mobile Navigation Js start -->
+
+    <script>
+      const btnNavEl = document.querySelector(".btn-mobile-nav");
+      const headerEl = document.querySelector(".header");
+
+      btnNavEl.addEventListener("click", function () {
+        headerEl.classList.toggle("nav-open");
+      });
+    </script>
+    <!-- Mobile Navigation Js end-->
+  </body>
+</html>
